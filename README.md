@@ -49,7 +49,7 @@ npm install -g protractor
 Step 2 - Selenium
 
 ```
-./node_modules/protractor/bin/webdriver-manager update
+npm run setup-e2e
 ```
 
 Step 3 - Install latest Java SE Development Kit

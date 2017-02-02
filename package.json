@@ -12,6 +12,7 @@
     "coverage": "npm run unit && ./node_modules/.bin/http-server ./coverage/report/",
     "unit": "./node_modules/.bin/karma start --single-run",
     "tdd": "./node_modules/.bin/karma start",
+    "setup-e2e": "./node_modules/protractor/bin/webdriver-manager update",
     "e2e": "protractor ./protractor.conf.js",
     "lint": "./node_modules/.bin/eslint src",
     "postinstall": "./node_modules/.bin/bower install && npm run build"
